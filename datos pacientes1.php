@@ -1,0 +1,22 @@
+<html>
+<body background= "digital-hospitals.jpg">
+<form method="post">
+ <div class="row">
+	<H1 align="center"><label>DATOS DEL PACIENTE</label></H1>
+<H1 align="center"><p>nombre:<input type="text" name="barcodeText" class="form-control">apellido:<input type="text" name="barcodeText" class="form-control"></p>
+<H1 align="center"><p>edad:<input type="number" name="barcodeText" class="form-control">pais:<input type="text" name="barcodeText" class="form-control"></p> 
+<H1 align="center"><p>correo:<input type="text" name="barcodeText" class="form-control">telefono:<input type="text" name="barcodeText" class="form-control"></p> 
+<H1 align="center">contrase&ntildea:<input type="text" name="barcodeText" class="form-control">
+</div>
+<div class="row">
+ 	<H1 align="center">selecciona el hospital donde sera atendida</H1>
+ 	<H1 align="center"><select name="barcodeType" id="barcodeType" class="form-control"></H1>
+ 	<option value="1">SEDE HOSPITAL JESUS</option>
+ 	<option value="2">SEDE HOSPITAL YAR</option>
+ 	<option value="3">SEDE HOSPITAL PAITILLA</option>
+ </select>
+</div>
+
+<H1 align="center"><a href="principal.php"><input type="button" value="REGRESA"></a>
+</html>
+</body>
